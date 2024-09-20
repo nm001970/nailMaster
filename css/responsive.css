@@ -89,7 +89,19 @@
 
 }
 
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .about_section .slider .projects-box-item {
+        width: auto;
+        height: 200px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,0.7);
+      }
+      .about_section .slider {
+        padding: 40px 27px;
+      }
+      .lSSlideOuter.lSrtl .lightSlider > * {
+        margin-left: 20px;
+      }
+}
 
 @media (max-width: 480px) {}
 
