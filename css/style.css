@@ -391,8 +391,7 @@ a:focus {
 }
 
 .feature_section .feature_container .box:hover, .feature_section .feature_container .box.active {
-  background-color: #ff8a1d;
-  color: #ffffff;
+  font-size: 30px;
 }
 
 .feature_section .feature_container .box:hover .img-box svg, .feature_section .feature_container .box.active .img-box svg {
@@ -400,9 +399,6 @@ a:focus {
   font-size: 30px;
 }
 
-.feature_section .feature_container .box:hover .img-box svg path, .feature_section .feature_container .box.active .img-box svg path {
-  fill: #ffffff;
-}
 
 .about_section .row {
   -webkit-box-align: center;
